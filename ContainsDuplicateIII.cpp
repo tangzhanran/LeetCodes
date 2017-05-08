@@ -6,6 +6,9 @@
 //	and the absolute difference between i and j is at most k.
 //
 //	Written by Zhanran Tang @ 5/2/2017
+//
+//	Idea: Use set.
+//	Complexity: O(nlogn) n - size of nums.
 
 #include <vector>
 #include <iostream>

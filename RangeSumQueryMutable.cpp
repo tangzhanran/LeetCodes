@@ -14,6 +14,9 @@
 //		You may assume the number of calls to update and sumRange function is distributed evenly.
 //
 //	Written by Zhanran Tang @5/3/2017
+//
+//	Idea: Use Segment Tree
+//	Complexity: O(n) in building tree, update & search
 
 #include <stdlib.h>
 #include <vector>

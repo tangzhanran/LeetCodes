@@ -11,6 +11,9 @@
 //	Given numerator = 2, denominator = 3, return "0.(6)".
 //
 //	Written by Zhanran Tang @ 5/2/2017
+//
+//	Idea:	Straight forward remainder operation.
+//	Complexity:	O(n) n - decimal number(loop) length
 
 #include <vector>
 #include <sstream>

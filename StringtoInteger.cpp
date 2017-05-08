@@ -2,6 +2,11 @@
 //	Implement atoi to convert a string to an integer.
 //
 //	Written by Zhanran Tang @ 5/1/2017
+//
+//	Idea:	Straight forward. 
+//			Valid string ignore starting spaces and start with + or - or number
+//			Number ends when encounters non-number characters.
+//	Complexity: O(n) n - length of str
 
 #include <iostream>
 

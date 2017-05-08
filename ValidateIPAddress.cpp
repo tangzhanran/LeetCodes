@@ -36,6 +36,9 @@
 //	Explanation : This is neither a IPv4 address nor a IPv6 address.
 //
 //	Written by Zhanran Tang @ 5/4/2017
+//
+//	Idea: Split input.
+//	Complexity: O(n) n-the length of IP
 
 #include <vector>
 #include <string>

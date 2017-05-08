@@ -4,6 +4,8 @@
 //	If it is overflow, return MAX_INT.
 //
 //	Written by Zhanran Tang @ 5/1/2017
+//	
+//	Idea: Bit Operation.
 
 #include <cmath>
 #include <iostream>

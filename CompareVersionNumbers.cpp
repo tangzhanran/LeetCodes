@@ -13,6 +13,9 @@
 //	0.1 < 1.1 < 1.2 < 13.37
 //
 //	Written by Zhanran Tang @ 5/4/2017
+//
+//	Ideas:	Straight forward.
+//	Complexity:	O(n) n - min(length(v1),length(v2)) 
 
 #include <string>
 #include <iostream>

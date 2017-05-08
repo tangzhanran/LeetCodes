@@ -16,7 +16,10 @@
 //	X X X X
 //	X O X X
 //
-// Written by Zhanran Tang @ 5/2/2017
+//	Written by Zhanran Tang @ 5/2/2017
+//
+//	Idea: Expand from boundary then flip
+//	Complexity: O(sz) sz - board size
 
 #include <vector>
 #include <iostream>

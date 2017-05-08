@@ -13,6 +13,9 @@
 //	]
 //
 //	Written by Zhanran Tang @	5/4/2017
+//
+//	Idea:	sorting and check the last and next.
+//	Complexity:	O(nlogn) n - size of nums
 
 #include <vector>
 #include <iostream>

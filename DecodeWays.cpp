@@ -13,6 +13,11 @@
 //	The number of ways decoding "12" is 2.
 //
 //	Written by Zhanran Tang @5/3/2017
+//
+//	Idea:	Store the number of single digit at the end and the total number of ways.
+//			If the new char can be merge, single = total && total += single
+//			If can not merge, single = total
+//	Complexity:	O(n) n - string length
 
 #include <string>
 #include <iostream>

@@ -22,6 +22,8 @@
 //		You may assume beginWord and endWord are non - empty and are not the same.
 //
 //	Written by Zhanran Tang @ 5/3/2017 Time Exceed for some samples
+//	
+//	Idea: Tree with BFS
 
 #include <string>
 #include <vector>

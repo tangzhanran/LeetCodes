@@ -5,7 +5,13 @@
 //	Given s = "the sky is blue",
 //	return "blue is sky the".
 //
+//	For C programmers: Try to solve it in-place in O(1) space.
+//
 //	Written by Zhanran Tang @ 5/1/2017
+//
+//	Ideas:
+//		1. Linear time & linear space: Using stack to store words.
+//		2. Polynomial time & constant space: First reverse whole sentences then reverse each word. 
 
 #include <string>
 #include <stack>
