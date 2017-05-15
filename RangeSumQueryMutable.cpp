@@ -16,7 +16,7 @@
 //	Written by Zhanran Tang @5/3/2017
 //
 //	Idea: Use Segment Tree
-//	Complexity: O(n) in building tree, update & search
+//	Complexity: O(n) in building tree, O(logn) in update & search
 
 #include <stdlib.h>
 #include <vector>
