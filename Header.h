@@ -13,6 +13,7 @@
 #include <queue>
 #include <stack>
 #include <string>
+#include <deque>
 
 //iostreams
 #include <iostream>
