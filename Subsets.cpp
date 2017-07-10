@@ -27,7 +27,7 @@
 
 #include "Header.h"
 
-#define RECURSIVE 0
+#define RECURSIVE 1
 
 using namespace std;
 
