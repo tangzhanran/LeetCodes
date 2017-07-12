@@ -34,5 +34,12 @@ struct ListNode
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
+struct TreeLinkNode 
+{
+	TreeLinkNode *left;
+	TreeLinkNode *right;
+	TreeLinkNode *next;
+};
+
 #endif // !HEADER_H_
 #pragma once
