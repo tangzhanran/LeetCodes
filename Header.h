@@ -6,7 +6,7 @@
 //oslibs
 #include <cstdlib>
 
-//stl data structures
+//stl headers
 #include <vector>
 #include <unordered_set>
 #include <unordered_map>
@@ -14,6 +14,7 @@
 #include <stack>
 #include <string>
 #include <deque>
+#include <functional>
 
 //iostreams
 #include <iostream>
