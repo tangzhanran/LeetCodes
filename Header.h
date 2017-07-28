@@ -15,6 +15,7 @@
 #include <string>
 #include <deque>
 #include <functional>
+#include <ctime>
 
 //iostreams
 #include <iostream>
