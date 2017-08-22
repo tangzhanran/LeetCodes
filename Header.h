@@ -50,5 +50,13 @@ struct UndirectedGraphNode
 	UndirectedGraphNode(int x) : label(x) {};
 };
 
+struct Interval 
+{
+	int start;
+	int end;
+	Interval() : start(0), end(0) {}
+	Interval(int s, int e) : start(s), end(e) {}
+};
+
 #endif // !HEADER_H_
 #pragma once
