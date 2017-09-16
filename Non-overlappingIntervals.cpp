@@ -20,6 +20,9 @@
 //	Input : [[1, 2], [2, 3]]
 //	Output : 0
 //	Explanation : You don't need to remove any of the intervals since they're already non - overlapping.
+//
+//	Ideas: Similar to work time arrangement. Keep track on how many intervals are kept and the rest is the answer.
+//	Complexity: O(nlogn) in time, O(1) in space.
 
 #include "Header.h"
 

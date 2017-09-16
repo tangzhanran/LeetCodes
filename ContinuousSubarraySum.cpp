@@ -40,19 +40,17 @@ bool checkSubarraySum(vector<int>& nums, int k)
 	}
 	else
 	{
-		int remainder = nums[0] % k;
+		int remainder = nums[0] % k, premod = 0, sum = 0;
 		unordered_set<int> modset;
-		modset.insert(remainder);
-		for (int i = 1; i<nums.size(); i++)
+		for (int i = 0; i<nums.size(); i++)
 		{
-			nums[i] += nums[i - 1];
-			remainder = nums[i] % k;
-			if (remainder == 0)
-				return true;
+			sum += nums[i];
+			remainder = sum % k;
 			if (modset.find(remainder) == modset.end())
-				modset.insert(remainder);
-			else if (i != 1)
+				modset.insert(premod);
+			else
 				return true;
+			premod = remainder;
 		}
 	}
 	return false;

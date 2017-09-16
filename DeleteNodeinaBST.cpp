@@ -39,7 +39,7 @@
 //	Written by Zhanran Tang @ 8/22/2017
 //
 //	Ideas: Find the target node recursively. 
-//		If the target node has right, then return right. else find the minimum in right, then delete right recursively.
+//		If the target node has no right, then return left. else find the minimum in right, then delete right recursively.
 //	Complexity: O(logn) in time. O(1) in space.
 
 #include "Header.h"
