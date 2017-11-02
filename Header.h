@@ -58,5 +58,9 @@ struct Interval
 	Interval(int s, int e) : start(s), end(e) {}
 };
 
+// helper functions
+ListNode* buildList(std::vector<int> nums);
+void showList(ListNode* head);
+
 #endif // !HEADER_H_
 #pragma once
